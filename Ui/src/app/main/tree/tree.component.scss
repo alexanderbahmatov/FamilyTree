@@ -1,0 +1,24 @@
+::ng-deep {
+    line.link {        
+        stroke: #444;
+        stroke-width: 1;
+        stroke-opacity: 0.6;
+    }
+    .node {
+        rect {
+            stroke: #444;
+            stroke-width: 1
+        }
+        circle {
+            fill: #fff;
+            stroke: #999;
+            stroke-width: 1.5
+        }
+        text {
+            cursor: default;
+            user-select: none;
+            fill: #444;
+            font-size: 14px;
+        }
+    }
+}
