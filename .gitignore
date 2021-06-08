@@ -54,10 +54,11 @@ Thumbs.db
 **/build/
 
 # .NET compiled files
-bin
-obj
+bin/
+obj/
 
 #packages
 **/packages/
 
 vs
+.bin
