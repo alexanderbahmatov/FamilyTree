@@ -1,32 +1,61 @@
-# Prerequisites
-*.d
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# dependencies
+**/node_modules/
 
-# Precompiled Headers
-*.gch
-*.pch
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Fortran module files
-*.mod
-*.smod
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# IDE Visual Studio
+.vs/
 
-# Executables
-*.exe
-*.out
-*.app
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Dist files
+**/dist/
+.idea
+
+#build
+**/build/
+
+# .NET compiled files
+bin
+obj
+
+#packages
+**/packages/
